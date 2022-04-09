@@ -1,9 +1,12 @@
 
+import React from 'react'
+import Header from './components/header'
+
 function App() {
   return (
     <div className="App">
     <center>
-      <h1>Hello Space-X</h1>
+      <Header/>
       </center>
     </div>
   );
