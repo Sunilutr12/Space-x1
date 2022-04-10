@@ -7,11 +7,9 @@ import{Launch} from './components/Launch/Launch'
 function App() {
   return (
     <div className="App">
-    <center>
+    
       <Header/>
       <Launch/>
-
-      </center>
     </div>
   );
 }
