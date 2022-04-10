@@ -1,18 +1,43 @@
 .launch{
-    height:300px;
+    height:150px;
     width: 1000px;
     padding: 10px;
-    background-color: brown;
+    
     display: flex;
+    box-shadow:3px 3px 3px 3px darkgray;
+    box-shadow: inset;
+    
+    border-radius: 8px;
+    cursor: pointer;
+    /*  Remove */
+    margin-top: 50px;
+    margin-left: 50px;
     
 }
 
 .launch img{
-    height:200px;
+    height:150px;
     width:200px;
 
 }
 .content .info{
-    display: flex;
+    display:flex;
+    justify-content:space-around;
+    margin-left: 20px;
+}
+.content{
+    margin-left: 20px;
+    width: 80%;
+    color: cadetblue;
+}
 
+.content p{
+    font-size:20px;
+    display: -webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-left: 20px;
+    color:gray;
+    
 }
