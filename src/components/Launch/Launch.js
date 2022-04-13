@@ -5,13 +5,13 @@ export class Launch extends React.Component{
     render(){
         return(
             <div className='launch'>
-            <img src="https://farm9.staticflickr.com/8637/16079045013_1f0fab9b54_o.jpg"/>
+            <img src={this.props.img}/>
             <div className='content'>
             <div className='info'>
-               <h1>Title:FalconSat</h1>
-               <h1>Date:2006-03-25T10:30:00+12:00</h1>
+               <h1>{this.props.title}</h1>
+               <h1>{this.props.LaunchDate}</h1>
             </div>
-            <p>Descriptyion:"Engine failure at 33 seconds and loss of vehicle""Engine failure at 33 seconds and loss of vehicle""Engine failure at 33 seconds and loss of vehicle""Engine failure at 33 seconds and loss of vehicle""Engine failure at 33 seconds and loss of vehicle""Engine failure at 33 seconds and loss of vehicle",</p>
+            <p>{this.props.description}</p>
             </div>
             </div>
         )
